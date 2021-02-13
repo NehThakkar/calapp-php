@@ -9,7 +9,7 @@ $submit = filter_input(INPUT_POST, 'submit');
 
 function tipCalculate($total, $percentage){ 
     $total_tip = $total * $percentage * (0.01);
-    echo "<p> If your bill is $$total and you'd like to tip $percentage%, you should tip CAD $$total_tip</p>";
+    echo "<p> If your bill is $$total and you'd like to tip $percentage%, you should tip $$total_tip</p>";
 }
 //if submit is set, invoke the function with the required arguments 
 if(isset($submit)) {
