@@ -22,7 +22,7 @@
                 <h1> Not Sure How Much To Tip?</h1>
                 <h2> Let Our Tip Calculator Help! </h2>
             </header>
-            <form method="post" action="$_SERVER['PHP_SELF']">
+            <form method="post" action="<?php $_SERVER['PHP_SELF'] ?>">
                 <div class="form-group">
                     <label for="amount"> How much was the bill? </label>
                     <input type="text" name="amount" id="amount" class="form-control">
@@ -37,6 +37,7 @@
                         <option value="35">35%</option>
                     </select>
                 </div>
+                <input type="submit" value="submit" name="submit" class="btn btn-primary">
             </form>
             <button name="clear" class="btn btn-secondary"> clear calculator </button>
             <?php require('calculate-script.php'); ?>
