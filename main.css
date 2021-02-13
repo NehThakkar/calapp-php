@@ -1,0 +1,42 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("bg.jpg");
+	background-size: cover;
+}
+
+h1,
+h2 {
+	font-family: "Barlow Condensed", sans-serif;
+}
+
+main {
+	margin-top: 10%;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    font-size: 1.2rem; 
+}
+
+input[type="submit"] {
+	color: #fff;
+}
+
+button {
+	margin: 25px 0;
+	color: #fff;
+}
+
+p {
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 5px;
+	color: #007bff;
+	font-size: 18px;
+}
